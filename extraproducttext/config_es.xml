@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>extraproducttext</name>
+    <displayName><![CDATA[Extra Product Text]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[Add additional text on the product sheet]]></description>
+    <author><![CDATA[Noraimar Mora]]></author>
+    <tab><![CDATA[others]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

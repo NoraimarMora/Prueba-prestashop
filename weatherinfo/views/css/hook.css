@@ -1,0 +1,48 @@
+.weather-container {
+    margin: 1rem -10rem 0.5rem 14.75rem;
+    width: 25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+.weather-img-container {
+    padding-right: 0;
+    float: left;
+    margin-top: -0.75rem;
+    width: fit-content;
+}
+
+.weather-img-container img {
+    width: 3rem;
+}
+
+.weather-info-container {
+    padding-left: 0;
+}
+
+.weather {
+    font-size: 1rem;
+    color: #2A2A2A;
+}
+
+#header .header-nav {
+    max-height: fit-content;
+}
+    
+#orig {
+    display: inline-block; 
+    transform: translatex(0); 
+    animation: marquesina 25s infinite normal linear 1s;     
+}
+
+@keyframes marquesina {
+    0% {transform: translatex(0); }
+    100% {transform: translatex(-125%); }
+}
+    
+@media (max-width: 786px) {
+    .weather-container {
+        display: none;
+    }
+}

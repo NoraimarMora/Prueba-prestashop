@@ -1,0 +1,9 @@
+.message-container {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.message {
+    font-size: 1rem;
+    color: #2A2A2A;
+}

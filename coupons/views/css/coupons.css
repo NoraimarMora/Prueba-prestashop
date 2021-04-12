@@ -1,0 +1,58 @@
+.coupon-body {
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+    background-color: #C81213;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+.coupon-body .title {
+    color: #DCBF5E;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.coupon-body .title h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.coupon-body .title span {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.coupon-body .card {
+    width: 300px;
+    height: 60px;
+    margin: 0.5rem auto 0.5rem auto;
+    position: relative;
+}    
+   
+.coupon-body .base,
+.coupon-body #scratch,
+.coupon-body #scratch2 {
+    /*cursor: default;*/
+    height: 60px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: grabbing;
+}
+ 
+.coupon-body .base {
+   line-height: 60px;
+   text-align: center; 
+}
+ 
+.coupon-body #scratch,
+.coupon-body #scratch2 {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+   -webkit-touch-callout: none;
+   -webkit-user-select: none; 
+}
