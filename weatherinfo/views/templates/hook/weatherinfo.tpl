@@ -5,7 +5,7 @@
     </div>
     <div class="weather-info-container col-md-10">
         <span class="weather-info city">{$weather['city']}, {$weather['country']}. </span>
-        <span class="weather-info">{l s='Condition'}: {$weather['condition']}. </span>
+        <span class="weather-info">{l s='Condition' mod='weatherinfo'}: {$weather['condition']}. </span>
         <span class="weather-info">{l s='Temperature' mod='weatherinfo'}: {$weather['temp_c']}°C. </span>
         <span class="weather-info">{l s='Feels like' mod='weatherinfo'}: {$weather['feelslike_c']}°C. </span>
         <span class="weather-info">{l s='Humidity' mod='weatherinfo'}: {$weather['humidity']}%. </span>

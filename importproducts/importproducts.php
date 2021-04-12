@@ -16,7 +16,7 @@ class ImportProducts extends Module {
         $this->need_instance = 1;
         parent::__construct();
         $this->displayName = $this->l('Import products');
-        $this->description = $this->l('');
+        $this->description = $this->l('Import products from https://wiki.webimpacto.net/docs/products.csv');
     }
 
     public function install()
